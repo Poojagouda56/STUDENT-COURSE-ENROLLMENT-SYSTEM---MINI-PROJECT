@@ -2,13 +2,6 @@ CREATE DATABASE student_project;
 
 USE student_project;
 
-drop table students;
-drop table courses;
-drop table enrollment;
-drop table exams;
-drop table results;
-
-
 CREATE TABLE students ( student_id INT AUTO_INCREMENT PRIMARY KEY, name
 VARCHAR(100), age INT, gender VARCHAR(10) );
 
